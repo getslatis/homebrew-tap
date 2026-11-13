@@ -2,22 +2,22 @@
 class Slatis < Formula
   desc "CLI of Slatis, where a team directs agents to produce software"
   homepage "https://slatis.com"
-  version "2026.11.13.035643"
+  version "2026.11.13.065630"
 
   on_macos do
     depends_on arch: :arm64
-    url "https://slatis.com/download/2026.11.13.035643/slatis-darwin-arm64.tar.gz"
-    sha256 "6b66a9b9d232f05ee0b360ac84430a1c90d4fd3e2e50b38ae1d033f0f839bbe7"
+    url "https://slatis.com/download/2026.11.13.065630/slatis-darwin-arm64.tar.gz"
+    sha256 "7e281ba811b2be0f393f522154b14b529ac4950c0e712e6e10ce4562f30c889b"
   end
 
   on_linux do
     on_intel do
-      url "https://slatis.com/download/2026.11.13.035643/slatis-linux-amd64.tar.gz"
-      sha256 "31a8034e44b17a26597218cff4816c13d1f96ce57a06b836e86f104732d1f672"
+      url "https://slatis.com/download/2026.11.13.065630/slatis-linux-amd64.tar.gz"
+      sha256 "15c689ab39f1cee9a07526be4ee036eac944bcd17ff9485dbd8bbb705620abdb"
     end
     on_arm do
-      url "https://slatis.com/download/2026.11.13.035643/slatis-linux-arm64.tar.gz"
-      sha256 "dabd17720c83650ca20bdbe172ee132407b2199b0ba25b5a148aad55c8b2fbea"
+      url "https://slatis.com/download/2026.11.13.065630/slatis-linux-arm64.tar.gz"
+      sha256 "97edb16aa39901bb7e0cf5a6342155fcdaa899a7daf47fe131ec4ab6eb15efbd"
     end
   end
 
